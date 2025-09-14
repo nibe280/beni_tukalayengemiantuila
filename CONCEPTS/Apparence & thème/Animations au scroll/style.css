@@ -1,0 +1,15 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+.box {
+  margin: 100px auto;
+  width: 300px;
+  padding: 50px;
+  text-align: center;
+  background: coral;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease;
+}
+.box.show {
+  opacity: 1;
+  transform: translateY(0);
+}

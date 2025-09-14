@@ -1,0 +1,15 @@
+.tabs {
+  display: flex;
+  gap: 10px;
+}
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+.content {
+  display: none;
+  margin-top: 20px;
+}
+.content.active {
+  display: block;
+}

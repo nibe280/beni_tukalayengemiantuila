@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Profil utilisateur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="profile">
+    <img id="avatar" src="https://via.placeholder.com/100" alt="Avatar">
+    <h2 id="username">Utilisateur</h2>
+    <p id="bio">Ma bio...</p>
+    <button id="editBtn">Modifier le profil</button>
+  </div>
+
+  <div id="editForm" style="display:none;">
+    <input type="text" id="newName" placeholder="Nouveau nom">
+    <textarea id="newBio" placeholder="Nouvelle bio"></textarea>
+    <button id="saveBtn">Enregistrer</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

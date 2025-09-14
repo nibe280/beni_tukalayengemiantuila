@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+.answer { display: none; margin: 0; }
+.item.active .answer { display: block; }
+h3 { cursor: pointer; }

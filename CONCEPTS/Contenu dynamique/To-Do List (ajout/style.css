@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+li { display: flex; justify-content: space-between; margin: 5px 0; }
+button { cursor: pointer; }
+

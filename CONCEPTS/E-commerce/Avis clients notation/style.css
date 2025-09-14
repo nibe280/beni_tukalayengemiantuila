@@ -1,0 +1,2 @@
+#rating span { font-size: 24px; cursor: pointer; }
+#rating span.active { color: gold; }
